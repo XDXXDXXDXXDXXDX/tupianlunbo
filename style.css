@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+span {
+    margin-left: 5px;
+    top: 344px;
+}
+
+span:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+#showImg {
+    display: block;
+    background-color: wheat;
+    top: 20px;
+    left: 50%;
+    margin-left: -288px;
+    position: absolute;
+}
+
+#sliderBtn {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 314px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#left {
+    position: absolute;
+    left: 50%;
+    margin-left: -288px;
+    top: 20px;
+}
+
+#right {
+    position: absolute;
+    left: 50%;
+    margin-left: 188px;
+    top: 20px;
+}
+
+#left:hover, #right:hover {
+    cursor: pointer;
+}
+
+
+
+
